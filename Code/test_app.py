@@ -26,7 +26,7 @@ def test_app():
     # This is an exceptional feature in playwright
 
     #browser --> chromium / webkit
-    #
+    
 
 
 
