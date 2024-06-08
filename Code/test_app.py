@@ -13,9 +13,10 @@ def test_app():
 
     #Code interaction with HTML  web page
     page.goto("https://superadmin.noramoney.com/") #goto is used to redirect to url. #codegen is used to generate code based on UI navigation done.
-    breakpoint()
+
     #validations
     expect(page).to_have_title("NORAWALLET SUPER ADMIN")
+    breakpoint()
 
 
     #debugging in playwright - simple, just add breakpoint() and debugger will open into which u can

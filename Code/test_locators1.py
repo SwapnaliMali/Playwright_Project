@@ -6,8 +6,8 @@ def test_locators():
     context = browser.new_context()
     Page = context.new_page()
 
-    Page.goto("https://superadmin.noramoney.com/")
+    Page.goto("https://app.noramoney.com/")
     Page.title()
     Page.wait_for_load_state("networkidle")
-    Page.locator("#phone").fill("937386810")
+    Page.select_option()
 
